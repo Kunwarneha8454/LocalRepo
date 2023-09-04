@@ -2,37 +2,63 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>First page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 <body>
-    <header>
-        <div>
-            <h1><big><i><u>PROJECT 1:-</u></i></big></h1>
-            <h2><u>Hello World!</u></h2>
-            <hr>
-        </div>
-    </header>
-   <main>
-    <div>
-    <h2><a href="education.html" target="_main"> Go to My education details</a> <br></h2>
-    <h2><a href ="experience.html" target="_main"> Go to My experience details</a></h2>
-    <hr>
+    <h3>Registration Form</h3>
+    <form action="/action.php">
+        <input type="text" placeholder="Username">
+        <br><br>
+        <input type="password" placeholder="password">
+        <br><br>
+        <h4>Select your Class</h4>
+        <label for="101">
+        <input type="radio" value="Class XI" name="Class" id="101">Class XI
+    </label>
+    <br><br>
+         <label for="102">
+        <input type="radio" value="Class XII" name="Class"  id="102">Class XII
+    </label>
+    <Br><br>
+        <h4>Select your Subjects</h4>
+
+    <label for="math">
+        <input type="checkbox" value="math" name="subject" id="103">math
+    </label>
+    <br><br>
+
+    <label for="Phy">
+        <input type="checkbox" value="Phy" name="subject" id="103">Physics
+    </label>
+    <br><br>
+     <lable for="chem">
+        <input type="checkbox" value="chem" name="subject" id="104">chemistry
+     </lable>
+     <br><br>
+     <lable for="Cs">
+        <input type="checkbox" value="computer science" name="subject" id="105">Computer Science
+     </lable>
+     <br><br>
+     Select your city
+     <select name="city">
+        <option value="Dehli">Dehli</option>
+        <option value="Dehradoon">Dehradoon</option>
+        <option value="Banlore">Banglore</option>
+        <option value="Mumbai">Mumbai</option>
+        <option value="Pune">Pune</option>
+     </select>
+     <br><br><br>
+
+    <textarea name="feedback" id="106" placeholder="Please give your valuable feedback here" rows="5" cols="25"></textarea>
     <br>
-    <h1><b>My Social Media Profiles:-</b></h1>
-    <hr>
-    <a href="https://www.instagram.com/kunwar_neha_/#" target="_main"> <img src="insta.png" alt="My Instagram Profile" height="300" width="400"></a>
-    
-    <a href="https://www.linkedin.com/in/neha-kunwar-332a95253/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BZ9gZFH9bThyXunjEClEHBA%3D%3D" target="_main"><img src="linkedin.jpg" height="300" width="400"></a>
-    <a href="https://github.com/Kunwarneha8454" target="_main"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc03Z2UXifZgrg5kbUeUdYnoBMROjd4Ttqy8o-43NzXXp96E-l2tZg0rYCI_o5LhgnCwc&usqp=CAU" alt="My Github Profile" height="300" width="500"></a>
-    <a href="https://www.facebook.com/" target="_main"> <img src="https://21stcenturychronicle.com/wp-content/uploads/2023/05/meta-facebook.jpg" alt="My Facebok Profile" height="300" width="500"></a>
-    <hr>
-</div>
-   </main>
-  
+    <input type="submit" value="submit">
+    <br>
+    <video src="mine.mp4" controls height="400" width="500" loop></video>
+    <br>
    
-    <footer>
-        <h5>-Contact me at Kunwarneha8650@gmail.com</h5>
-    </footer>
+
+
+    </form>
 </body>
 </html>
